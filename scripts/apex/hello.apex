@@ -32,4 +32,6 @@ tw.children.add(new TestWrapper('test2', 0));
 tw.children[0].children.addAll(new List<TestWrapper>{ new TestWrapper('test3', 0), new TestWrapper('test4', 1) });
 tw.children.add(new TestWrapper('test5', 1));
 
+system.debug('Test');
+
 tw.outputRecord(0);
